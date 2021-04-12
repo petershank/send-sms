@@ -1,0 +1,18 @@
+{
+  "name": "send-sms",
+  "version": "1.0.0",
+  "description": "a first attempt at sending sms via twilio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sms",
+    "twilio"
+  ],
+  "author": "peter@shank.com",
+  "license": "MIT",
+  "dependencies": {
+    "twilio": "^3.58.0"
+  }
+}
