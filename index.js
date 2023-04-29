@@ -4,9 +4,10 @@ const accountSid = process.env.TWILIO_ACCOUNT_SID;
 const authToken = process.env.TWILIO_AUTH_TOKEN;
 const client = require("twilio")(accountSid, authToken);
 
+const body = "brought to you by variables";
 client.messages
   .create({
-    body: "This is more secure.",
+    body: body,
     from: "+14259993410",
     to: "+14259996981",
   })
